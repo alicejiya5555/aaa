@@ -1,0 +1,30 @@
+{
+  "name": "telegram-balance-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to check ETH, BNB, USDT (ERC20 & BEP20) balances",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.4",
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "crypto",
+    "etherscan",
+    "bscscan",
+    "usdt",
+    "bnb",
+    "ethereum"
+  ],
+  "author": "Ronaldo",
+  "license": "ISC"
+}
